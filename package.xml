@@ -1,0 +1,27 @@
+<package>
+  <name>rqt_pcl</name>
+  <version>0.4.9</version>
+  <description>
+      rqt_pcl
+  </description>
+  <maintainer email="morten.mjelva@gmail.com">Morten Mjelva</maintainer>
+
+  <license>BSD</license>
+
+  <author>Morten Mjelva</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>python_qt_binding</run_depend>
+  <run_depend>python-rospkg</run_depend>
+  <run_depend>qt_dotgraph</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>rqt_gui</run_depend>
+  <run_depend>rqt_gui_py</run_depend>
+
+  <export>
+    <architecture_independent/>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>
+
